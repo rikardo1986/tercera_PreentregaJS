@@ -137,51 +137,30 @@ footer p {
 }
 
 /***** RESPONSIVO ******/
-/*
-@media (max-width: 2560px) {
-    .ingreso {
-    margin: 20rem 0 5rem;
-    gap: 4rem 20rem;
-    grid-template-columns: repeat(3, 20rem);
-    grid-template-rows: repeat(4, 10rem);
-    }
-    .ingreso button {
-    font-size: 1.4rem;
-    }
-}
 
 @media (max-width: 1440px) {
+    .principal {
+        grid-template-rows: repeat(2, 12rem);
+    }
+    .titulo h1, .titulo h2 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
     .ingreso {
-    gap: 4rem;
-    margin: 15rem 0 5rem;
-    grid-template-columns: repeat(3, 21rem);
-    grid-template-rows: repeat(4, 9rem);
-    }
+        gap: 2rem 3rem;
+        margin: 12rem 0 4rem;
+        grid-template-columns: repeat(2, 20rem);
+        grid-template-rows: repeat(3, 10rem);
+      }
     .ingreso button {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    padding-left: 7rem;
     }
-}
-@media (max-width: 1280px) {
-    .ingreso {
-    gap: 4rem;
-    margin: 11rem 0 5rem;
-    grid-template-columns: repeat(3, 18rem);
-    grid-template-rows: repeat(4, 6rem);
-    }
-    .ingreso button {
-    font-size: 1.2rem;
-    }
-}
-
-@media (max-width: 1024px) {
-    .ingreso {
-    gap: 4rem;
-    margin: 10rem 0 5rem;
-    grid-template-columns: repeat(3, 18rem);
-    grid-template-rows: repeat(4, 6rem);
-    }
-    .ingreso button {
-    font-size: 1.2rem;
+    footer p {
+        font-size: 1.5rem;
+        padding: 2%;
     }
 }
 
@@ -190,19 +169,20 @@ footer p {
         grid-template-rows: repeat(2, 6rem);
     }
     .titulo h1, .titulo h2 {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
     h2 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .ingreso {
-    gap: 3rem;
-    margin: 10rem 0 5rem;
-    grid-template-columns: repeat(3, 18rem);
-    grid-template-rows: repeat(4, 6rem);
-    }
+        gap: 2rem 2rem;
+        margin: 7rem 0 4rem;
+        grid-template-columns: repeat(2, 11rem);
+        grid-template-rows: repeat(3, 6rem);
+      }
     .ingreso button {
     font-size: 1rem;
+    padding-left: 4rem;
     }
     footer p {
         font-size: 0.8rem;
@@ -210,4 +190,28 @@ footer p {
     }
 }
 
-*/
+@media (max-width: 320px) {
+    .principal {
+        grid-template-rows: repeat(2, 4rem);
+    }
+    .titulo h1, .titulo h2 {
+        font-size: 1.1rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .ingreso {
+        gap: 1rem 1rem;
+        margin: 5rem 0 3rem;
+        grid-template-columns: repeat(2, 7rem);
+        grid-template-rows: repeat(3, 5rem);
+      }
+    .ingreso button {
+    font-size: 0.8rem;
+    padding-left: 3rem;
+    }
+    footer p {
+        font-size: 0.8rem;
+        padding: 2%;
+    }
+}
